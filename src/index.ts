@@ -38,8 +38,9 @@ namespace TeaSchool{
         }
 
         // Make puppeteer render the HTML from data buffer
-        await page.goto(`data:text/html,${renderedTemplate}`,
-            {waitUntil: ['load', 'domcontentloaded', 'networkidle0']} as NavigationOptions);
+        await page.setContent(`${renderedTemplate}`, {
+            waitUntil: ["load", "domcontentloaded", "networkidle0"]
+        });
 
         const pdfBuffer = await page.pdf({...options.pdfOptions});
 
