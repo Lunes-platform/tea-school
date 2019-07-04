@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "test": "npx ts-mocha ./src/tests/**.ts"
+    "test": "npx ts-mocha ./src/tests/**.ts",
+    "postinstall": "npx tsc"
   },
   "repository": {
     "type": "git",
