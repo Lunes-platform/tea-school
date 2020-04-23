@@ -4,3 +4,4 @@ src/
 examples/
 tslint.json
 tsconfig.json
+.history

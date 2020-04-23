@@ -1,5 +1,5 @@
 {
-  "name": "tea-school",
+  "name": "tea-school-lunes",
   "version": "1.3.4",
   "description": "A simplified html + css --> PDF generator",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmirTugi/tea-school.git"
+    "url": "git+https://github.com/Lunes-platform/tea-school.git"
   },
   "keywords": [
     "PDF",
@@ -21,9 +21,9 @@
   "author": "Amir Tugendhaft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmirTugi/tea-school/issues"
+    "url": "https://github.com/Lunes-platform/tea-school/issues"
   },
-  "homepage": "https://github.com/AmirTugi/tea-school#readme",
+  "homepage": "https://github.com/Lunes-platform/tea-school/#readme",
   "devDependencies": {
     "@types/chai": "^4.1.6",
     "@types/mocha": "^5.2.5",
